@@ -7,7 +7,9 @@ capybaraGO! android game has a code claiming system, this automates it. Capybara
 - [x] Refactor code
 
 Example:
-`python capyclaim.py`
+`python capyclaim.py --debug ~/path/to/wordlist`
+Tested on windows
+Should work on linux
 Sample Results
 ```
 [*] Generating captcha...
