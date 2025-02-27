@@ -7,37 +7,54 @@ capybaraGO! android game has a code claiming system, this automates it. Capybara
 - [x] Refactor code
 
 Example:
-`python capyclaim.py --debug ~/path/to/wordlist`
+`python .\capyclaim.py --debug .\Tools\capycodes.txt`
 Tested on windows
 Should work on linux
 Sample Results
 ```
-[*] Generating captcha...
-[+] Response saved to captcha_response.json
-  Successfully extracted captchaId: Oyk7C7hu7QobQiDVWglJ
-    Fetching captcha image with ID: Oyk7C7hu7QobQiDVWglJ
-[+] Captcha image saved as captcha.png
-        Image format: PNG, Size: (240, 80), Mode: P
-[*] Captcha ID: Oyk7C7hu7QobQiDVWglJ
-        Enter the captcha code shown in the image: 2848
-        Enter your gift code: lucky999
 
-────────── [+] SENDING DATA [+] ──────────
+╔═════════════════════════════════════════════════╗
+║  🎁  🎁  🎁   GIFT CODE CLAIMER  🎁  🎁  🎁     ║
+╚═════════════════════════════════════════════════╝
+
+🐞  Debug mode enabled
+🐞  Using user ID: 12345678
+✅  Loaded 104 gift codes from .\Tools\capycodes.txt
+
+🎁  Trying gift code 1/104: capyyushui
+🤖  Generating captcha...
+🐞  Response saved to captcha_response.json
+🐞  Response status code: 200
+🐞  JSON response: {
+  "code": 0,
+  "data": {
+    "captchaId": "obLRO7anH1jVAxE5D1iX"
+  }
+}...
+✅  Successfully extracted captchaId: obLRO7anH1jVAxE5D1iX
+🔍  Fetching captcha image with ID: obLRO7anH1jVAxE5D1iX
+🐞  Image request status code: 200
+🐞  Image response content type: image/png
+🖼️  Captcha image saved as captcha.png
+🐞  Image format: PNG, Size: (240, 80), Mode: P
+❓  Enter the captcha code shown in the image: 9110
+
+────────── 🐞  REQUEST DATA 🐞  ──────────
 {
-    "userId": "12345678",
-    "giftCode": "lucky999",
-    "captcha": "2846",
-    "captchaId": "Oyk7C7hu7QobQiDVWglJ"
+    "userId": "123445678",
+    "giftCode": "capyyushui",
+    "captcha": "9110",
+    "captchaId": "obLRO7anH1jVAxE5D1iX"
 }
 ──────────────────────────────────────────
-
-Submitting gift code claim...
-
-Error: Too many attempts. Please try again later.
-Full response: {
+🔑  Submitting gift code claim...
+🐞  Claim request status code: 200
+⏳  Too many attempts. Please try again later.
+🐞  Full response: {
   "code": 20407,
   "message": "giftcode self claimed"
 }
+⌛  Waiting 1.0 seconds before next attempt...
 ```
 
 **Disclaimer**: *This content is for educational purposes only. Do not attempt to replicate or apply the information in real-world scenarios. Any actions taken based on this material are at your own risk. The author assumes no responsibility for any consequences that may arise.*
