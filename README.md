@@ -1,4 +1,9 @@
+# CapybaraGo!
+Is an idle rpg mobile game with an emphesis on DPS and pets. And of course that sweet happy capy life :) !
+
+
 # capyclaim
+
 capybaraGO! android game has a code claiming system, this automates it. Capybara Go codes can be found in the discord but i will eventually add them all here for a word list to iterate, collecting all codes in a sitting for a new account. the captcha isnt automated yet. I plan to add the feature of captcha automation soon, i just havent gotten around to it but i dont think it will be to hard.
 
 - [x] Proof of concept
@@ -7,10 +12,13 @@ capybaraGO! android game has a code claiming system, this automates it. Capybara
 - [x] Refactor code
 
 Example:
-`python .\capyclaim.py --debug .\Tools\capycodes.txt`
+`python .\capyclaim.py .\capycodes.txt`
+
 Tested on windows
+
 Should work on linux
-Sample Results
+
+Sample Results with debug info `python .\capyclaim.py --debug .\capycodes.txt`
 ```
 
 ╔═════════════════════════════════════════════════╗
