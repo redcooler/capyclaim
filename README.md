@@ -28,11 +28,11 @@ Sample Results
 🐞  JSON response: {
   "code": 0,
   "data": {
-    "captchaId": "obLRO7anH1jVAxE5D1iX"
+    "captchaId": "xxxcaptchaidxxx"
   }
 }...
-✅  Successfully extracted captchaId: obLRO7anH1jVAxE5D1iX
-🔍  Fetching captcha image with ID: obLRO7anH1jVAxE5D1iX
+✅  Successfully extracted captchaId: xxxcaptchaidxxx
+🔍  Fetching captcha image with ID: xxxcaptchaidxxx
 🐞  Image request status code: 200
 🐞  Image response content type: image/png
 🖼️  Captcha image saved as captcha.png
@@ -44,7 +44,7 @@ Sample Results
     "userId": "123445678",
     "giftCode": "capyyushui",
     "captcha": "9110",
-    "captchaId": "obLRO7anH1jVAxE5D1iX"
+    "captchaId": "xxxcaptchaidxxx"
 }
 ──────────────────────────────────────────
 🔑  Submitting gift code claim...
