@@ -3,8 +3,8 @@ capybaraGO! android game has a code claiming system, this automates it. Capybara
 
 - [x] Proof of concept
 - [ ] Automate CAPTCHA
-- [ ] Wordlist to automate all codes at once
-- [ ] Refactor code
+- [x] Wordlist to automate all codes at once
+- [x] Refactor code
 
 Example:
 `python capyclaim.py`
